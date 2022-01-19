@@ -124,7 +124,7 @@ export default {
 	box-sizing: border-box;
 	margin-bottom: 0.3125rem;
 }
-.children > li {
+.children li {
 	padding-left: 1.875rem;
 }
 .triangle {

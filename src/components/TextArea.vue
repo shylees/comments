@@ -40,7 +40,13 @@ export default {
 		},
 	},
 	mounted() {
-		this.user = "shylees";
+		let user = localStorage.getItem("commentUser");
+		if (user) {
+			this.user = user;
+		} else {
+			this.user = "defaultUser";
+			localStorage.setItem("commentUser", this.user);
+		}
 	},
 };
 </script>

@@ -1,6 +1,24 @@
-# comment
+# A vue component of comment
 
-> Implement function of comments
+线上展示链接：http://159.75.249.227:3600/
+
+实现的功能有：
+
++ 发布评论
++ 多级嵌套评论
++ 收缩展示多级评论 
++ 评论数据持久化
+
+技术栈：`vue2`
+
+使用到的知识点：
+
++ 组件通信 `props`、`$emit`
++ 浏览器存储 `localStorage` 
++ 组件循环嵌套
+
+
+
 
 ## Build Setup
 
@@ -18,4 +36,3 @@ npm run build
 npm run build --report
 ```
 
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
